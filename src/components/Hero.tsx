@@ -26,9 +26,11 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="flex justify-center mb-8">
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-full">
-            <div className="h-16 w-16 bg-white rounded-full flex items-center justify-center">
-              <span className="text-blue-600 font-bold text-2xl">ABS</span>
-            </div>
+            <img
+              src="/image.png"
+              alt="ABS Travel Logo"
+              className="h-16 w-auto"
+            />
           </div>
         </div>
 

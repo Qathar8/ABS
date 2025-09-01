@@ -28,9 +28,11 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <div className="h-10 w-10 bg-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">ABS</span>
-              </div>
+              <img
+                src="/image.png"
+                alt="ABS Travel Logo"
+                className="h-10 w-auto"
+              />
               <span className="ml-3 text-lg font-bold text-gray-900">ABS Travel</span>
             </Link>
           </div>

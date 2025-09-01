@@ -37,8 +37,12 @@ const AdminLogin = () => {
       
       <div className="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-            <Lock className="h-8 w-8 text-white" />
+          <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+            <img
+              src="/image.png"
+              alt="ABS Travel Logo"
+              className="h-16 w-auto"
+            />
           </div>
           <h1 className="text-2xl font-bold text-gray-900">Admin Login</h1>
           <p className="text-gray-600 mt-2">Access the admin dashboard</p>
