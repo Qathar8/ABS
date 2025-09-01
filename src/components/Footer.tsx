@@ -13,11 +13,9 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img
-                src="/image.png"
-                alt="ABS Travel Logo"
-                className="h-10 w-auto"
-              />
+              <div className="h-10 w-10 bg-blue-600 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-lg">ABS</span>
+              </div>
               <span className="text-xl font-bold">ABS Travel</span>
             </div>
             <p className="text-gray-300 leading-relaxed">

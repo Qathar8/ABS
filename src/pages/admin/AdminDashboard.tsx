@@ -96,11 +96,9 @@ const AdminDashboard = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
-              <img
-                src="/image.png"
-                alt="ABS Travel Logo"
-                className="h-8 w-auto"
-              />
+              <div className="h-8 w-8 bg-blue-600 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold">ABS</span>
+              </div>
               <h1 className="text-xl font-bold text-gray-900">Admin Dashboard</h1>
             </div>
             <button
