@@ -16,6 +16,10 @@ import AdminLogin from './pages/admin/AdminLogin';
 import AdminDashboard from './pages/admin/AdminDashboard';
 import ManagePackages from './pages/admin/ManagePackages';
 import ManagePosts from './pages/admin/ManagePosts';
+import ManageGallery from './pages/admin/ManageGallery';
+import PackageForm from './pages/admin/PackageForm';
+import PostForm from './pages/admin/PostForm';
+import AdminProtectedRoute from './components/AdminProtectedRoute';
 import { Toaster } from 'react-hot-toast';
 
 function App() {
@@ -29,9 +33,46 @@ function App() {
             <Routes>
               {/* Admin Routes */}
               <Route path="/admin/login" element={<AdminLogin />} />
-              <Route path="/admin/dashboard" element={<AdminDashboard />} />
-              <Route path="/admin/packages" element={<ManagePackages />} />
-              <Route path="/admin/posts" element={<ManagePosts />} />
+              <Route path="/admin/dashboard" element={
+                <AdminProtectedRoute>
+                  <AdminDashboard />
+                </AdminProtectedRoute>
+              } />
+              <Route path="/admin/packages" element={
+                <AdminProtectedRoute>
+                  <ManagePackages />
+                </AdminProtectedRoute>
+              } />
+              <Route path="/admin/packages/new" element={
+                <AdminProtectedRoute>
+                  <PackageForm />
+                </AdminProtectedRoute>
+              } />
+              <Route path="/admin/packages/edit/:id" element={
+                <AdminProtectedRoute>
+                  <PackageForm />
+                </AdminProtectedRoute>
+              } />
+              <Route path="/admin/posts" element={
+                <AdminProtectedRoute>
+                  <ManagePosts />
+                </AdminProtectedRoute>
+              } />
+              <Route path="/admin/posts/new" element={
+                <AdminProtectedRoute>
+                  <PostForm />
+                </AdminProtectedRoute>
+              } />
+              <Route path="/admin/posts/edit/:id" element={
+                <AdminProtectedRoute>
+                  <PostForm />
+                </AdminProtectedRoute>
+              } />
+              <Route path="/admin/gallery" element={
+                <AdminProtectedRoute>
+                  <ManageGallery />
+                </AdminProtectedRoute>
+              } />
               
               {/* Public Routes */}
               <Route path="/*" element={

@@ -4,6 +4,7 @@ import {
   Package as PackageIcon, 
   FileText, 
   Users, 
+  Image,
   LogOut, 
   Plus,
   BarChart3
@@ -86,6 +87,13 @@ const AdminDashboard = () => {
       icon: Users,
       href: '/admin/inquiries',
       color: 'bg-purple-600'
+    },
+    {
+      title: 'Manage Gallery',
+      description: 'Upload and manage photos and videos',
+      icon: Image,
+      href: '/admin/gallery',
+      color: 'bg-orange-600'
     }
   ];
 

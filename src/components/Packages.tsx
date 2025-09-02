@@ -41,7 +41,7 @@ const Packages = () => {
       price: 2500,
       duration: '10 Days',
       inclusions: ['5-Star Hotels', 'Airport Transfers', 'Ziyarat Tours', 'Group Leader'],
-      image_url: 'https://images.pexels.com/photos/631477/pexels-photo-631477.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image_url: '/P2.jpeg',
       type: 'umrah',
       created_at: new Date().toISOString()
     },
@@ -54,7 +54,7 @@ const Packages = () => {
       price: 1500,
       duration: '7 Days',
       inclusions: ['3-Star Hotels', 'Airport Transfers', 'Group Leader'],
-      image_url: 'https://images.pexels.com/photos/2233391/pexels-photo-2233391.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image_url: '/PACKAGE.jpeg',
       type: 'umrah',
       created_at: new Date().toISOString()
     },
