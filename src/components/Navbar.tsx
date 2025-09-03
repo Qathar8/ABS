@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <img
-                src="/image.png"
+                src="/LOGO.PNG"
                 alt="ABS Travel Logo"
                 className="h-10 w-auto"
               />

@@ -105,7 +105,7 @@ const AdminDashboard = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
               <img
-                src="/image.png"
+                src="/LOGO.PNG"
                 alt="ABS Travel Logo"
                 className="h-8 w-auto"
               />

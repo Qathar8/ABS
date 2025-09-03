@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="flex justify-center mb-8">
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-full">
             <img
-              src="/image.png"
+              src="/LOGO.PNG"
               alt="ABS Travel Logo"
               className="h-16 w-auto"
             />
