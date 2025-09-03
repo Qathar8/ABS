@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">{t('address')}</h4>
-                  <p className="text-gray-600">Nairobi, Kenya</p>
+                  <p className="text-gray-600"> BBS Nairobi, Kenya Mogadishu Somalia</p>
                 </div>
               </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">{t('phone')}</h4>
-                  <p className="text-gray-600">+254 700 123 456</p>
+                  <p className="text-gray-600">+254 728 305788</p>
                 </div>
               </div>
 
@@ -56,14 +56,14 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">{t('whatsapp')}</h4>
-                  <p className="text-gray-600">+254 700 123 456</p>
+                  <p className="text-gray-600">+254 728 305788</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-8">
               <a
-                href="https://wa.me/254700123456"
+                href="https://wa.me/254728305788"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200"
